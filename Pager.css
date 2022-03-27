@@ -1,0 +1,40 @@
+.pager ul.pages {
+display:block;
+border:none;
+text-transform:uppercase;
+font-size:10px;
+margin:10px 0 50px;
+padding:0;
+font-family:Arial,宋体;
+margin-left:20px;
+}
+
+.pager ul.pages li {
+list-style:none;
+float:left;
+border:1px solid #ccc;
+text-decoration:none;
+margin:0 5px 0 0;
+padding:5px;
+font-family:Arial,宋体;
+}
+
+.pager ul.pages li: hover {
+border:1px solid #003f7e;
+background-color:#cdcdcd;
+font-family:Arial,宋体;
+}
+
+.pager ul.pages li.pgEmpty {
+border:1px solid #eee;
+color:#eee;
+font-family:Arial,宋体;
+}
+
+.pager ul.pages li.pgCurrent {
+border:1px solid #003f7e;
+color:#000;
+font-weight:700;
+background-color:#eee;
+font-family:Arial,宋体;
+}
