@@ -1,4 +1,4 @@
-(function ($) {
+﻿(function ($) {
     'use strict';
 
     var SliderCaptcha = function (element, options) {
@@ -9,7 +9,7 @@
     };
 
     SliderCaptcha.VERSION = '1.0';
-    SliderCaptcha.Author = 'http://tsyd.cnse.samr.gov.cn/Content/sliderCaptcha/disk/argo@163.com';
+    SliderCaptcha.Author = 'argo@163.com';
     SliderCaptcha.DEFAULTS = {
         width: 280,     // canvas宽度
         height: 155,    // canvas高度
